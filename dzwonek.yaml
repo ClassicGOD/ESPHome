@@ -30,20 +30,16 @@ api:
 ota:
   password: !secret api_password
 
-
 web_server:
   port: 80
 
 time:
-
   - platform: homeassistant
     id: homeassistant_time
 
 text_sensor:
-
   - platform: version
     name: Dzwonek ESPHome Version
-    
   - platform: wifi_info
     ip_address:
       name: Dzwonek IP
@@ -69,7 +65,6 @@ switch:
     pin: D2
 
 binary_sensor:
-
   - platform: gpio
     id: button
     name: Dzwonek Przycisk
