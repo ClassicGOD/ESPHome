@@ -51,7 +51,6 @@ text_sensor:
 sensor:
   - platform: uptime
     name: Dzwonek Uptime
-
   - platform: wifi_signal
     name: Dzwonek WiFi Signal
     update_interval: 60s
@@ -59,7 +58,6 @@ sensor:
 switch:
   - platform: restart
     name: Dzwonek Restart
-
   - platform: gpio
     name: Dzwonek Przelacznik
     pin: D2
